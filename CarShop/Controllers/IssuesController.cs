@@ -28,7 +28,7 @@ namespace CarShop.Controllers
             var model = issueService.GetIssues(carId);
             var model2 = issueService.GetIssues2(carId);
 
-            return View(new { model.Year, model.IsAuthenticated, model.Model, model.Id, model2 });
+            return View(new { model.Year, model.IsAuthenticated, model.Model, model.CarId, model2 });
         }
 
         [Authorize]
