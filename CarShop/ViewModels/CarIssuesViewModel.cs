@@ -4,7 +4,7 @@
     {
         public bool IsAuthenticated { get; set; } = true;
 
-        public string Id { get; set; }
+        public string CarId { get; set; }
 
         public string Year { get; set; }
 
